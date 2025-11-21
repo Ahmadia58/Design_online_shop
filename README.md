@@ -22,9 +22,3 @@ It is part of a daily task plan (Day 7–8: Frontend Connection).
 
 ---
 
-## ⚙️ Installation & Setup
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/store-frontend-backend.git
-cd store-frontend-backend
