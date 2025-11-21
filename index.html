@@ -1,0 +1,16 @@
+<!-- index.html -->
+<h2>لیست مشتری‌ها</h2>
+<ul id="customerList"></ul>
+
+<script>
+fetch("http://localhost:5000/customers")
+  .then(response => response.json())
+  .then(data => {
+    const ul = document.getElementById("customerList");
+    data.forEach(customer => {
+      const li = document.createElement("li");
+      li.textContent = customer.name;
+      ul.appendChild(li);
+    });
+  });
+</script>
